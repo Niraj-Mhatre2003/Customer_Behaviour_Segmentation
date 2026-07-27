@@ -1,0 +1,16 @@
+# Ignore data folders
+processed/
+
+# Ignore large datasets & models
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.zip
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
